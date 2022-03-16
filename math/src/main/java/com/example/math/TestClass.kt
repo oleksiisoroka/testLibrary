@@ -1,11 +1,8 @@
 package com.example.math
 
-import android.content.Context
-import android.widget.Toast
-
 class TestClass {
 
-    fun doingTest(context: Context) {
-        Toast.makeText(context, "The test pass successful", Toast.LENGTH_SHORT).show()
+    fun doingTest(i1: Int, i2: Int): Int {
+        return i1 + i2
     }
 }
